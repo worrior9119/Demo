@@ -11,6 +11,8 @@ public class DirPath {
         String str = sc.next();
         System.out.println(dirPath(str));
         System.out.println(x);
+        System.out.println();
+        System.out.println();
     }
     public static String dirPath(String str){
         Stack<String> s = new Stack<String>();
