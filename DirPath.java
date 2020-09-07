@@ -10,6 +10,7 @@ public class DirPath {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         System.out.println(dirPath(str));
+        System.out.println(x);
     }
     public static String dirPath(String str){
         Stack<String> s = new Stack<String>();
